@@ -7,6 +7,7 @@ const MyEditor = ({ record }) => {
   const [editorState, setEditorState] = useState(() =>
     EditorState.createEmpty()
   );
+  //use efect kako se koristi
 
   useEffect(() => {
     if (record && record.vaText) {
